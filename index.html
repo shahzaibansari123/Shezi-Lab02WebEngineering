@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab01 Shahzaib Ansari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Login form</h1>
+    <div id="disp">
+        <form action="https://www.example.com">
+            <div id="sectiondiv">
+                <label for="loginID">Login ID:</label>
+                <br>
+                <input type="text" id="loginID" name="loginID" value="" required><br>
+                <br>
+                <label for="name">name:</label>
+                <br>
+                <input type="text" id="name" name="name" value="" required><br>
+                <br>
+                <label for="checkbox">Remember me</label>
+                <br>
+                <input type="checkbox" id="checkbox" name="checkbox" value="" required><br>
+                <br>
+                <input id="login" type="button" value="login" onClick="logIn();" />
+                <input id="ok" type="button" value="OK" onClick="setcookie();" />
+                <input id="cancel" type="button" value="Cancel" onClick="clearAll();" />
+            </div>
+        </form>
+        <div><img src="./download.jfif" alt="image"></div>
+    </div>
+    <center><p id="pic1"></p></center>
+</body>
+<script src="app.js"></script>
+
+</html>

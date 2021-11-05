@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Profile:</h1>
+    <div id="about">
+        <img src="./download.jfif" id="img" alt="">
+        <div id="abouttxt">
+            <p> My name is Shahzaib Ansari. Currently doing BS in Software Engineering from Sir Syed University of
+                Engineering and Technology.I am also doing web & mobile hybrid App development course from SMIT.</p>
+        </div>
+    </div>
+    <h1>Courses:</h1>
+    <table style="padding: 14px; border-spacing: 20px;" id="studentCourses" class="courses">
+        <thead>
+            <tr>
+                <th style="padding: 4px;"> Course ID </th>
+                <th> Course Name </th>
+                <th> Credit Hours </th>
+                <th> Year Taken </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="padding: 4px;" id="row1" class="row">
+                <td style="padding: 4px;">Course 1</td>
+                <td>Web Engineering</td>
+                <td>3+1</td>
+                <td>2021</td>
+            </tr>
+            <tr id="row2" class="row">
+                <td>Course 2</td>
+                <td>CCN</td>
+                <td>3</td>
+                <td>2020</td>
+            </tr>
+            <tr id="row3" class="row">
+                <td>Course 3</td>
+                <td>Compiler Consruction</td>
+                <td>2+1</td>
+                <td>2021</td>
+            </tr>
+            <tr id="row4" class="row">
+                <td>Course 4</td>
+                <td>data Structure and Algorithm</td>
+                <td>3+1</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+    </br>
+    <input id="addRowColor" type="button" value="Add Row Color" />
+    <input type="button" value="Add New Course" onclick="addNewCourse();" />
+    <input type="button" value="Delete Course" onclick="deleteCourse();" />
+    <input type="button" value="Update Course" onclick="updateCourse();" />
+    <input type="button" value="Remove All Course" onclick="removeallcourses();" />
+    <div id="interest">
+        <h2>Interests</h2>
+        <a class="link" href="https://www.ssuet.edu.pk/?__cf_chl_managed_tk__=pmd_uNhenNi444BQPv0T4FfkLZGBVhl_OP3FySBsinJDsrs-1635457543-0-gqNtZGzNAyWjcnBszQal">SSUET
+            Home Page</a> &nbsp;&nbsp;
+        <a class="link"
+            href="https://www.ssuet.edu.pk/wp-content/uploads/2021/06/Award-of-Scholarships-and-Financial-Assistance.pdf">SSUET
+            Scholarship Notice page</a> &nbsp;&nbsp;
+        <a class="link"
+            href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.ssuet.edu.pk%2Fwp-content%2Fuploads%2F2019%2F12%2FEvent-Calander-Fall-Semester-2018-1.xlsx&wdOrigin=BROWSELINK">SSUET
+            Events Calender Page</a>
+    </div>
+    <div>
+        <button onclick="moveBackward()">Move backward</button>
+        <ul id="list"></ul>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

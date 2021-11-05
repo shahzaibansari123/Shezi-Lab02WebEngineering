@@ -1,0 +1,136 @@
+h1{
+    text-align: left;
+}
+
+body{
+    background-color: rgb(175, 180, 189);
+}
+
+#about{
+    width: 40%;
+  margin: 10px 0px 50px 0px;  
+  border: 4px rgb(0, 0, 0) solid;
+  border-radius: 0px;
+  height: 149px;
+}
+
+#img{
+    float: right;
+    width: 150px;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+
+#abouttxt{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    justify-content: center;  
+}
+
+#interest{
+    margin-top: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#title{
+    color: grey;
+    text-align: center;
+}
+
+label{
+    color:rgb(84, 85, 74);
+}
+
+/* input colors */
+
+#loginID{   
+    color: darkolivegreen;
+    border: 6px solid brown;
+    width: 100%;
+    
+}
+
+#name{
+    color:darkolivegreen;
+    border: 6px solid brown;
+    width: 100%;
+    
+} 
+
+/* button colors */
+
+#ok{
+ color:rgb(52, 125, 52);
+}
+
+#cancel{
+    color: red;
+}
+
+#sectiondiv{
+    text-align: right;
+}
+
+form{
+    border: 10px solid rgb(13, 110, 72);
+    border-radius: 50px;
+    width: 20%;
+    margin: 0% auto 0% auto;
+    padding: 5% 15% 5% 15%;
+
+}
+
+input:focus{
+    background-color: rgb(137, 129, 130);
+}
+
+pic1{
+    width: 130px;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+} 
+
+.link{
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+
+/* #imgbox{
+display: inline-block;
+} */
+
+/* #disp{
+    display: inline-flex;
+} */
